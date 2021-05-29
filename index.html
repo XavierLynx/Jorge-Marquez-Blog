@@ -96,13 +96,19 @@
 
     <footer id="contacto">
         <div class="contenedor">
-            <h2 class="titulo">Contáctanos</h2>
-
+            <div class="textos-footer">
+                <h2 class="titulo-footer">Prof. Jorge Márquez</h2>
+                <p>Especialista en Gerencia Educativa</p>
+                <p>jrmarquez4076@gmail.com</p>
+                <br/><br/>
+            </div>
             <form class="form" name="contact" method="POST" data-netlify="true">
                 <input class="input" type="text" name="name" required placeholder="Nombre">
                 <input class="input" type="email" name="email" required placeholder="Email">
                 <textarea class="input" name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                <button class="input" type="submit" value="Enviar">Enviar</button>
+                <button class="input" type="submit" value="Enviar">Enviar mensaje</button>
+                <button class="input" type="reset" value="Limpiar">Limpiar forma</button>
+                <button class="input" type="button" onclick="window.open('img/cv.jpg', '_blank')">Curriculum Vitae</button>
             </form>
             
         </div>
